@@ -132,6 +132,7 @@ body {
   /* background-color: firebrick; */
   /* border: 2px solid cyan; */
   border: none;
+  outline: none;
   height: 100%;
   width: 80%;
 }

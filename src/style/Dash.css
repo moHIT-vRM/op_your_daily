@@ -1,0 +1,105 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.nav {
+  background-color: #f88a12;
+  height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid green;
+}
+
+.div1 {
+  /* border: 2px solid blue; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 20%;
+}
+
+.div1 img {
+  /* border: 2px solid lime; */
+}
+.div1 h2 {
+  /* border: 2px solid lime; */
+  color: white;
+}
+.div2 {
+  /* border: 2px solid blue; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 15%;
+}
+.div2 img {
+  margin-right: 20px;
+}
+
+div .cardblock {
+  /* opacity: 0.5; */
+  /* background: transparent linear-gradient(180deg, #ffecd7 0%, #ffc9c9 100%) 0%
+    0% no-repeat padding-box; */
+    /* bg */
+    background: transparent linear-gradient(180deg, rgba(255, 236, 215, 0.5) 0%, rgba(255, 201, 201, 0.5) 100%) 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  position: relative;
+  top: 30px;
+  height: 430px;
+  width: 80%;
+  margin: auto;
+  /* border: 1px solid #f88a12; */
+  border: 1px solid rgba(248, 138, 18, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mainSec {
+  
+  /* border: 1px solid blue; */
+  height: 100%;
+  width: 90%;
+  /* border-radius: 10px; */
+  /* opacity: 0.5; */
+  /* background: transparent linear-gradient(180deg, #ffecd7 0%, #ffc9c9 100%) 0%
+    0% no-repeat padding-box; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+
+  grid-template-rows: repeat(2, 1fr);
+
+  grid-template-columns: repeat(5, 1fr);
+
+  /* grid-gap: 10px; */
+  justify-items: center;
+  align-items: center;
+}
+
+/*     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.count1{
+    display: flex;
+    border: 1px solid #f88a12;
+    height: 45%;
+    justify-content: center;
+    align-items: center;
+    
+}
+.count2{
+    display: flex;
+    border: 1px solid #f88a12;
+    height: 45%;
+    justify-content: center;
+    align-items: center;
+} */
