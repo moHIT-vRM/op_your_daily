@@ -1,0 +1,88 @@
+@font-face {
+  font-family: "mesuo";
+  src: url(../font/c.otf);
+}
+
+body {
+  font-family: "mesuo";
+}
+
+/* 
+.section_1 {
+  border: 2px solid red;
+  margin: 20px auto 5px;
+  width: 83%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#btn1 {
+  border: 2px solid grey;
+  cursor: pointer;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#btn2 {
+  border: 2px solid grey;
+  cursor: pointer;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f88a12;
+}
+.section_2 {
+  border: 2px solid red;
+  margin: auto;
+  width: 83%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  height: 35px;
+}
+.route_1 {
+  border: 1px solid #707070;
+  border-radius: 10px 0px 0px 0px;
+  
+  width: 32%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.route_2 {
+  border: 1px solid #707070;
+  
+  width: 36%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.route_3 {
+  border: 1px solid #707070;
+  border-radius: 0px 10px 0px 0px;
+  width: 32%;
+  
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.route_active {
+  border: 1px solid #f88a12;
+  border-bottom: 5px solid #f88a12;
+  
+  color: #f88a12;
+} */
+.section_3 {
+  /* border: 2px solid #707070; */
+  margin: auto;
+  width: 83%;
+  margin-top: 20px;
+}

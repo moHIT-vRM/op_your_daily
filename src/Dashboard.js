@@ -1,8 +1,8 @@
 import React, { Fragment } from "react";
-import "./style/Dash.css";
-import "./style/Nav.css";
 import { Card } from "./Card";
 import { Navbar } from "./Navbar";
+import "./style/Dash.css";
+import "./style/Nav.css";
 
 const Dashboard = () => {
   return (
@@ -18,22 +18,44 @@ const Dashboard = () => {
         </div>
       </div>
       <div> */}
-      <Navbar/>
-        <div className="cardblock">
-          <div className="mainSec">
-            <Card content={"Total Cart Person"} number={"12"}   TrueFalse={true}/>
-            <Card content={"Total Delivery Boy"} number={"23"}   TrueFalse={true}/>
-            <Card content={"Total Users"} number={"1234"}   TrueFalse={true} id={'cd_blue'}/>
-            <Card content={"Unassigned orders"} number={"14"}   TrueFalse={true}/>
-            <Card content={"Total Items"} number={"45"}   TrueFalse={true}/>
-            <Card content={"Total Active Users"} number={"768"}  id={'cd_green'}  TrueFalse={false}  />
-            <Card content={"Total Ongoing Bookings"} number={"321"}   TrueFalse={false}/>
-            <Card content={"Past Week Bookings"} number={"170"}   TrueFalse={false}/>
-            <Card content={"Denied/Disputed order"} number={"9999/9999"}  id={'cd_size'} TrueFalse={true}/>
-            <Card content={"Scheduled Order"} number={"14"}   TrueFalse={true}/>
-          </div>
+      <Navbar />
+      <div className="cardblock">
+        <div className="mainSec">
+          <Card content={"Total Cart Person"} number={"12"} TrueFalse={true} />
+          <Card content={"Total Delivery Boy"} number={"23"} TrueFalse={true} />
+          <Card
+            content={"Total Users"}
+            number={"1234"}
+            TrueFalse={true}
+            id={"cd_blue"}
+          />
+          <Card content={"Unassigned orders"} number={"14"} TrueFalse={true} />
+          <Card content={"Total Items"} number={"45"} TrueFalse={true} />
+          <Card
+            content={"Total Active Users"}
+            number={"768"}
+            id={"cd_green"}
+            TrueFalse={false}
+          />
+          <Card
+            content={"Total Ongoing Bookings"}
+            number={"321"}
+            TrueFalse={false}
+          />
+          <Card
+            content={"Past Week Bookings"}
+            number={"170"}
+            TrueFalse={false}
+          />
+          <Card
+            content={"Denied/Disputed order"}
+            number={"9999/9999"}
+            id={"cd_size"}
+            TrueFalse={true}
+          />
+          <Card content={"Scheduled Order"} number={"14"} TrueFalse={true} />
         </div>
-      
+      </div>
     </>
   );
 };
