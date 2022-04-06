@@ -1,11 +1,13 @@
 import React, { Fragment } from "react";
 import "./style/Dash.css";
+import "./style/Nav.css";
 import { Card } from "./Card";
+import { Navbar } from "./Navbar";
 
 const Dashboard = () => {
   return (
     <>
-      <div className="nav">
+      {/* <div className="nav">
         <div className="div1">
           <img src="/img/whitelogo.png" alt="error"></img>
           <h2>Dashboard</h2>
@@ -15,7 +17,8 @@ const Dashboard = () => {
           <img src="/img/Group.png" alt="error"></img>
         </div>
       </div>
-      <div>
+      <div> */}
+      <Navbar/>
         <div className="cardblock">
           <div className="mainSec">
             <Card content={"Total Cart Person"} number={"12"}   TrueFalse={true}/>
@@ -30,7 +33,7 @@ const Dashboard = () => {
             <Card content={"Scheduled Order"} number={"14"}   TrueFalse={true}/>
           </div>
         </div>
-      </div>
+      
     </>
   );
 };

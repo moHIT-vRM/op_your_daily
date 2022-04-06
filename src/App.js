@@ -3,6 +3,7 @@ import React, { Fragment } from "react";
 import { Dashboard } from "./Dashboard";
 // import { Card } from "./Card";
 // import { Table1 } from "./Table1";
+// import { Navbar } from "./Navbar";
 
 
 
@@ -14,6 +15,7 @@ const App = () => {
       <Dashboard />
       {/* <Card /> */}
       {/* <Table1 /> */}
+      {/* <Navbar /> */}
     </Fragment>
   );
 };

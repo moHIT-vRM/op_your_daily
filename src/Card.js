@@ -6,9 +6,9 @@ const Card = ({content,number, TrueFalse , id}) => {
   return (
     <>
         <div className='card'>
-        <div className='c1'><h4>{content}</h4></div>
-      <div  className={'c2 Cedit'} id={id}><h5>{number}</h5></div>
-     { TrueFalse?  <div className='c3' >View Details</div> : '' }
+        <div className='card_title'><h4>{content}</h4></div>
+      <div  className={'card_number Cedit'} id={id}><h5>{number}</h5></div>
+     { TrueFalse?  <div className='card_btn' >View Details</div> : '' }
 
         </div>
     </>
