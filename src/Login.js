@@ -41,8 +41,6 @@ const Login = () => {
               </fieldset>
             </div>
 
-         
-
             <div className="t4">
               {" "}
               <fieldset className="field">
@@ -60,8 +58,6 @@ const Login = () => {
                 </div>
               </fieldset>
             </div>
-           
-
 
             {/* `````````````````````````````````````` */}
             <div className="t5">

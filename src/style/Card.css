@@ -1,5 +1,5 @@
 .card {
-  border: 1px solid ;
+  /* border: 1px solid ; */
   background: #ffffff 0% 0% no-repeat padding-box;
   border-radius: 10px;
   opacity: 1;
@@ -10,9 +10,9 @@
   /* margin: 10px; */
 }
 
-.c1 {
+.card_title {
   width: 100%;
-  height: 30%;
+  height: 60%;
   /* border: 2px solid red; */
   letter-spacing: 0.6px;
   display: flex;
@@ -20,14 +20,15 @@
   align-items: center;
   text-align: center;
 }
-.c2 {
+.card_number {
     width: 100%;
-    height: 50%;
-    border: 2px solid cyan;
+    height: 10%;
+    /* border: 2px solid cyan; */
     display: flex;
     justify-content: center;
     font-size: 60px;
   align-items: center;
+  color: #f88a12;
 }
 
 
@@ -36,18 +37,18 @@
     /* color: black; */
     /* color: darkblue; */
 }
-.cd_blue{
+#cd_blue{
     color: darkblue;
 }
-.cd_green{
+#cd_green{
     color: green;
 }
-.cd_size{
-    font-size: 10px;
+#cd_size{
+    font-size: 30px;
 }
-.c3 {
+.card_btn {
   width: 100%;
-  height: 20%;
+  height: 40%;
   /* border: 2px solid lime; */
   background: transparent linear-gradient(180deg, #f88a12 0%, #cd2d05 100%) 0%
     0% no-repeat padding-box;
