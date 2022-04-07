@@ -1,0 +1,46 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  
+  @font-face {
+      font-family: "mesuo";
+      src: url(../font/c.otf);
+  }
+  
+  .nav {
+    background-color: #f88a12;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid green; */
+    font-family: "mesuo";
+  }
+  
+  .div1 {
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 20%;
+  }
+  
+  .div1 img {
+    /* border: 2px solid lime; */
+  }
+  .div1 h2 {
+    /* border: 2px solid lime; */
+    color: white;
+  }
+  .div2 {
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 15%;
+  }
+  .div2 img {
+    margin-right: 20px;
+  }
