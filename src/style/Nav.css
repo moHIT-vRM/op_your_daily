@@ -44,3 +44,7 @@
   .div2 img {
     margin-right: 20px;
   }
+  #logout{
+    width: 11%;
+    filter: invert(100%);
+  }

@@ -1,11 +1,20 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useState } from "react";
 import "./style/User.css";
 
-const User_profile = () => {
+
+const User_profile = ({open , handleOpen}) => {
+  
+const handleCross =()=>{
+  handleOpen(false);
+  // console.log(open)
+}
+  
   return (
     <>
+   
       <div className="profile">
-        <div className="details0">
+      
+        <div className="details0" onClick={handleCross}>
           <img src="/img/cross.png" alt="error"></img>
         </div>
         <div className="details1">

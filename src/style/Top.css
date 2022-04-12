@@ -23,6 +23,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "mesuo";
+    outline: none;
+    border: none;
   }
   #btn2 {
     /* border: 2px solid grey; */
@@ -32,4 +38,11 @@
     justify-content: center;
     align-items: center;
     color: #f88a12;
+    outline: none;
+    border: none;
+    background-color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "mesuo";
+   
   }

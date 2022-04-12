@@ -17,29 +17,67 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
+    color: #707070;
   }
   .route_2 {
     border: 1px solid #707070;
     /* border-bottom: 5px solid red; */
+    color: #707070;
     width: 36%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
+    
   }
   .route_3 {
     border: 1px solid #707070;
     border-radius: 0px 10px 0px 0px;
+    text-decoration: none;
     width: 32%;
     /* border-bottom: 5px solid red; */
+    color: #707070;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    
   }
-  .route_active {
+  .route_active1 {
     border: 1px solid #f88a12;
     border-bottom: 5px solid #f88a12;
-    
+    border-radius: 10px 0px 0px 0px;
+    width: 32%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #f88a12;
+    text-decoration: none;
+  }
+  .route_active2 {
+    border: 1px solid #f88a12;
+    border-bottom: 5px solid #f88a12;
+    /* border-radius: 10px 0px 0px 0px; */
+    width: 36%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f88a12;
+    text-decoration: none;
+  }
+  .route_active3{
+    border: 1px solid #f88a12;
+    border-bottom: 5px solid #f88a12;
+    border-radius: 0px 10px 0px 0px;
+    width: 32%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f88a12;
+    text-decoration: none;
   }
