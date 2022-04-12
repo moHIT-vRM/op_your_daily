@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "mesuo";
+    src: url(../font/c.otf);
+  }
+  
+  body {
+    font-family: "mesuo";
+  }
+  .section_1 {
+    /* border: 2px solid red; */
+    margin: 20px auto 5px;
+    width: 83%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #btn1 {
+    /* border: 2px solid grey; */
+    cursor: pointer;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "mesuo";
+    outline: none;
+    border: none;
+  }
+  #btn2 {
+    /* border: 2px solid grey; */
+    cursor: pointer;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f88a12;
+    outline: none;
+    border: none;
+    background-color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "mesuo";
+   
+  }
